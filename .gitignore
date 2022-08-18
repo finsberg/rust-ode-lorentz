@@ -1,2 +1,3 @@
-/target
+*target
 lorentz.txt
+lorentz.npy
