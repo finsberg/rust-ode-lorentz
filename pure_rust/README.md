@@ -1,12 +1,8 @@
-# Solving the Lorentz ODE in Rust
-
-This a simple proof of concept for implementing a Rust based ODE solver.
-
-## Install
-First you need to [install rust](https://www.rust-lang.org/tools/install).
+# Using pure rust without any dependencies
+In [pure_rust](pure_rust) we basically solve the model using the built in data structures in rust
 
 ## Usage
-Next you can run the ODE solver using
+You can run the ODE solver using
 ```
 cargo run
 ```
@@ -23,6 +19,3 @@ Plot the results with python and `matplotlib`
 ```
 python plot.py
 ```
-
-## License
-MIT

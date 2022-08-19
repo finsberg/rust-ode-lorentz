@@ -1,12 +1,9 @@
-# Solving the Lorentz ODE in Rust
+# Using ndarry
 
-This a simple proof of concept for implementing a Rust based ODE solver.
-
-## Install
-First you need to [install rust](https://www.rust-lang.org/tools/install).
+In [rust_ndarry](rust_ndarry) we use a library called [ndarry](https://docs.rs/ndarray/latest/ndarray/) which is similar to Numpy NDArray. Here we also use [ndarray_np](https://docs.rs/ndarray-npy/latest/ndarray_npy/) to save the resulting array. 
 
 ## Usage
-Next you can run the ODE solver using
+You can run the ODE solver using
 ```
 cargo run
 ```
@@ -23,6 +20,3 @@ Plot the results with python and `matplotlib`
 ```
 python plot.py
 ```
-
-## License
-MIT
